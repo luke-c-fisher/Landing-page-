@@ -1,0 +1,15 @@
+.main {
+    background-color: #242e3d;
+    color: #F9FAF8;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+#hero {
+    font-size: 48px;
+    font-weight: 800;
+}

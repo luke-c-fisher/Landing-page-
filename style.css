@@ -1,15 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+div {
+    width: 100%;
+}
+
 .main {
-    background-color: #242e3d;
-    color: #F9FAF8;
+    background-color: #1F2937;
+    color: #f9faf8;
 }
 
 .logo {
     display: flex;
-    justify-content: space-between;
-    gap: 12px;
+    color: #E5E7EB;
+    font-size: 18px;
+
+}
+
+div#logo {
+    margin-left: 0;
+    margin-right: auto;
 }
 
 #hero {
-    font-size: 48px;
+    font-size: 4px;
     font-weight: 800;
 }

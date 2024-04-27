@@ -3,23 +3,27 @@ body {
     padding: 0;
   }
 
-div {
-    width: 100%;
-}
 
 .main {
     background-color: #1F2937;
     color: #f9faf8;
 }
 
+a {
+    text-decoration: none;
+    color:#E5E7EB;
+}
+
 .logo {
     display: flex;
     color: #E5E7EB;
+    gap: 12px;
+    flex-wrap: wrap;
     font-size: 18px;
 
 }
 
-div#logo {
+div#head-logo {
     margin-left: 0;
     margin-right: auto;
 }

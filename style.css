@@ -1,9 +1,11 @@
-body {
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
 
 
+  /* top */
 .main {
     background-color: #1F2937;
     color: #f9faf8;
@@ -18,8 +20,9 @@ a {
     display: flex;
     color: #E5E7EB;
     gap: 12px;
-    flex-wrap: wrap;
     font-size: 18px;
+    padding: 45px;
+    justify-content: flex-end;
 
 }
 
@@ -28,7 +31,42 @@ div#head-logo {
     margin-right: auto;
 }
 
-#hero {
-    font-size: 4px;
-    font-weight: 800;
+/* middle */
+
+.hero-container {
+    display: flex;
+    height: auto;
+    padding: 45px;
 }
+
+.hero-text-container {
+    flex-wrap: wrap;
+    font-size: 48px;
+    color: white;
+    margin-right: auto;
+    padding-right: 50px;
+    
+}
+
+.hero-text-container .secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    color:#E5E7EB;
+    background-color:#3882F6;
+}
+
+.image-container {
+    background-color: darkgrey;
+    border-color: 2px #1F2937;
+    padding-right: 20px;
+    flex-grow: 1;
+}
+
+
+
+
+
+

@@ -4,20 +4,17 @@
     box-sizing: border-box;
   }
 
- 
-
-
 
   /* top-main */
 
-
-.wrapper-top {
+  .wrapper-top {
     background-color: #1F2937;
-    padding: 0 20px 0 20px;
 }
 
 .main {
     background-color: inherit;
+    background-image: url("/images/sunrise.png");
+    background-size: cover;
     color: #f9faf8;
     transform: scale(0.90)
     
@@ -34,7 +31,6 @@ a {
     gap: 12px;
     font-size: 18px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 25px;
     justify-content: flex-end;
 
 }
@@ -188,7 +184,6 @@ div#head-logo {
 .action-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     padding: 10px;
     border: 2px solid #3882F6;
     font-size: 24px;
@@ -221,9 +216,10 @@ div#head-logo {
     color: #f9faf8;
     border-radius: 4px;
     border: 2px solid #f9faf8;
-    margin-bottom: 15px;
-    margin-right: 150px;
     font-weight: bold;
+    margin-bottom: 25px;
+    margin-right: 20px;
+    
 }
 
 
